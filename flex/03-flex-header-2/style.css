@@ -12,6 +12,23 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.part {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 16px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  gap: 16px;
 }
 
 .profile-image {
